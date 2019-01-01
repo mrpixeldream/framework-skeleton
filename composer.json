@@ -1,0 +1,26 @@
+{
+    "name": "dreamcode/framework-skeleton",
+    "description": "Skeleton App for the DreamCode Framework",
+    "type": "project",
+    "require-dev": {
+        "phpunit/phpunit": "^7.5"
+    },
+    "license": "GNU General Public License v3.0",
+    "authors": [
+        {
+            "name": "Niklas Schöllhorn",
+            "email": "n.schoellhorn@dream-code.eu"
+        }
+    ],
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "require": {
+        "dreamcode/framework": "dev-master"
+    },
+    "repositories": [
+        {
+            "type": "path",
+            "url": "../framework"
+        }
+    ]
+}
