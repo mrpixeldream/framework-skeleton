@@ -6,9 +6,9 @@ ini_set('display_errors', 1);
 error_reporting(E_ALL);
 
 use DreamCodeFramework\Application;
-use DreamCodeFramework\Configuration\Concrete\FileLoader;
 use DreamCodeFramework\Configuration\Manager;
 use Symfony\Component\HttpFoundation\Request;
+use DreamCodeFramework\Configuration\Concrete\FileLoader;
 
 /*
  * Bootstrap the application by invoking Composer's autoloader.

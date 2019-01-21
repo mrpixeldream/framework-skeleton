@@ -10,7 +10,7 @@
 return [
     'name' => 'DreamCode Framework Skeleton App',
     'mode' => 'debug',
-    'sub' => [
+    'sub'  => [
         'key' => 'Subkey Value',
     ],
 ];
